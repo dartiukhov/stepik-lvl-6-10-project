@@ -1,0 +1,227 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #eeeeee;
+}
+::-webkit-scrollbar-thumb {
+  background: #016153;
+  border-radius: 8px;
+  border: 1px solid #eeeeee;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #007765;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.header {
+  background-color: #007765;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-link {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.vertical-line {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.paper-net-is-here {
+  background-image: url(../img/paper-net-img.png);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.paper-net-is-here-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.the-problem {
+  background-color: #eeeeee;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.the-problem-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.the-problem-text {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+span {
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url(../img/hero-image.png);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.hero-text {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+}
+.pied-piper-coin {
+  padding-top: 48px;
+  padding-bottom: 92px;
+  background-color: #ffffff;
+}
+.pied-piper-coin-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin-bottom: 16px;
+}
+
+.pied-piper-coin-img {
+  width: 115px;
+  height: 115px;
+  margin-right: 48px;
+}
+.pied-piper-coin-text-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.pied-piper-coin-text-2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.the-team {
+  background-color: #eeeeee;
+  padding-bottom: 54px;
+}
+
+.the-team-title {
+  padding-top: 58px;
+  padding-bottom: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.the-team-members-container {
+  text-align: center;
+}
+
+.member {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+  align-items: center;
+  width: 350px;
+}
+.member-img {
+  width: 168px;
+  height: 168px;
+  margin-bottom: 12px;
+}
+
+.member-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+.member-job {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.footer {
+  background-color: #333333;
+}
+
+.footer-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
